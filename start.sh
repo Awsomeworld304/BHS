@@ -128,7 +128,7 @@ install_packages() {
         debian|ubuntu|pop)
             install_packages_debian
             ;;
-        arch)
+        arch|manjaro)
             install_packages_arch
             ;;
         *)
